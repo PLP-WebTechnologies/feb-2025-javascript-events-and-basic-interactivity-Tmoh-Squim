@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Interactive Sign-Up</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Sign Up</h2>
+        <form id="signupForm">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <p class="error-message" id="emailError"></p>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+                <p class="error-message" id="passwordError"></p>
+            </div>
+            <button type="submit">Sign Up</button>
+        </form>
+        <button id="theme-toggle">Toggle Dark Theme</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
